@@ -1,0 +1,56 @@
+shell commands
+
+
+1. Basic read usage
+
+echo "Enter your name:"      # Ask the user to type their name
+read name                    # Wait for input and store it in the variable 'name'
+echo "Hello, $name!"         # Use the variable to greet the user
+
+
+2.Read mulitiple lines in one line
+
+echo "Enter your first and last name:"  # Prompt user for two inputs
+read first last                         # Stores first word in 'first', second in 'last'
+echo "First Name: $first"               # Print first part
+echo "Last Name: $last"                 # Print second part
+
+
+3. Read input silently
+
+echo "Enter your password:"        # Prompt for password
+read -s password                   # -s = silent (input hidden), stores in 'password'
+echo                               
+echo "Password received."          # Just confirm input was accepted
+
+
+4. Read with prompt 
+
+read -p "What is your favorite color? " color   # Show prompt and take input on same line
+echo "Nice! $color is a great color."           # Use the input value
+
+
+5.Timeout while reading output
+
+read -t 5 -p "Enter your name (within 5 seconds): " name   # Wait 5 seconds for input
+echo "You entered: $name"                                  # Print input or empty if timeout
+
+
+6. Read input with a default value if nothing is entered 
+
+
+read -p "Enter your city [default: London]: " city   # Ask for city input
+city=${city:-London}                                 # If empty, set to "London"
+echo "Your city is: $city"
+
+
+
+
+| Option | Meaning                                  |
+| ------ | ---------------------------------------- |
+| `-p`   | Prompt the user with a message           |
+| `-s`   | Silent mode (used for passwords)         |
+| `-t`   | Timeout after N seconds                  |
+| `-n`   | Accept only N characters                 |
+| `-r`   | Raw mode (doesn’t interpret backslashes) |
+
