@@ -1,0 +1,11 @@
+ #!/bin/bash
+
+read -p "Do you want ? (fe/be): " answer
+
+if [ "$answer" == "fe" ]; then
+  cd /var/www/html/newprojecttt/frontend
+elif [ "$answer" == "be" ]; then
+  cd /var/www/html/newprojecttt/backend
+else
+  echo "Invalid option!"
+fi

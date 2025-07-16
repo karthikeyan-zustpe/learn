@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read -p "Enter countdown time in seconds: " time
+
+while [ $time -gt 0 ]; do
+  echo "⏱️  Time remaining: $time seconds"
+  sleep 1
+  ((time--))
+done
+
+echo "🚀 Countdown finished!"
