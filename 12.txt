@@ -1,0 +1,110 @@
+whoami 
+  - neega etha user ra login panirukiga
+
+sudo i  = Super User DO  
+  - it can be swifted to root user and if you use password 
+
+[jvlogesh@localhost ~]$ = username@hostname , $ is a prompt symbol
+   - it is a command prompt
+   - user account 
+
+[root@mylinuxvm ~]# = # it a root symbol
+   - it is also a command prompt
+   - root account
+
+ctrl + C = close the current tab
+
+ctrl + L = clear the tab
+
+clear    = clear the tab
+
+hostname  = shows who is the host
+
+cat       = 
+  
+man ls    = man(manual)
+ - show about the what is ls command  
+
+passwd  = to change the password
+  
+cd Documents       = relative path
+cd /home/Documents = absolute path
+
+
+ls -la
+  it shows
+   eg:
+     drwxr-xr-x = it start with d means directory
+     -rwxr-x    = it start with - means file
+     lrwxr-xr-x = it start with l means link file
+             2  = links
+       jvlogesh = user
+       jvlogesh = group
+             6  = which means how much file stores bits
+
+ls -la "FILE_NAME or FOLDER_NAME" =
+     - which means shows only their file or folder
+
+   
+ls -la my* = * it takes all word after the my (my*) (* it is wild card character)
+
+ls -la my*t = * it takes all word inside the my*t
+
+ls -la my_scr?pt = ? it takes all word that stored in (? it is also wild card character) 
+
+                   Symbolic link
+
+ln -s data_file sl_data_file 
+     ln = link
+     -s = symbolic link
+     data_file = source file
+     sl_data_file = destination file
+
+ls -i *data_file 
+     - it shows the inode numbers for data_file and sl_data_file in which both are different.
+ 
+for symbolic link inode numbers for source file and destination file are different 
+
+                      
+                       Hard link
+
+ln data_file hl_data_file
+       ln = link
+       data_file = source file
+       hl_data_file = destination file
+
+ls -li *code_file
+      - both inode numbers for data_file and hl_data_file in which both are same.
+
+for hard link inode numbers for source file and destination file are same.
+
+
+rm file_name = deleted
+
+rm -i file_name = it shows some comment for conformation and if we type "y" it gets conformed.
+
+rm /path/to/directory/* = all folders are deleted without . (hidden)files
+
+rm -r /path/to/directory/* = all folders are deleted includes . (hidden)files
+
+
+mkdir New_dir/Sub_dir/Under_dir = it cannot make directory error exist
+
+mkdir New_dir/Sub_dir/Under_dir -p = it can make directory 
+
+rmdir = remove directory
+
+
+file report.txt = shows the file content type
+ o/p  report.txt : ASCII Character
+
+cat report.txt -n
+-n = no of the lines
+
+cat report.txt -b
+ -b = only shows the no for content of the file
+
+printenv = this will print the environment variables 
+
+env = 
+

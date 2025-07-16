@@ -1,0 +1,85 @@
+Great! You're asking for **basic comments in Python**, explained clearly and line-by-line. Here's everything you need to get started:
+
+---
+
+## 🐍 Python Comments (Basics)
+
+Python supports:
+
+---
+
+### ✅ 1. **Single-Line Comments**
+
+```python
+# This is a single-line comment
+```
+
+### 🧠 Explanation:
+
+| Part                            | Meaning                                                           |
+| ------------------------------- | ----------------------------------------------------------------- |
+| `#`                             | Tells Python to **ignore the rest of the line** — it's a comment. |
+| `This is a single-line comment` | Text for humans — Python won’t run it.                            |
+
+---
+
+### ✅ 2. **Inline Comments**
+
+```python
+x = 5  # This sets the variable x to 5
+```
+
+### 🧠 Explanation:
+
+| Part                            | Meaning                               |
+| ------------------------------- | ------------------------------------- |
+| `x = 5`                         | Code that assigns the value 5 to `x`. |
+| `#`                             | Starts a comment.                     |
+| `This sets the variable x to 5` | Explains what the line of code does.  |
+
+---
+
+### ✅ 3. **Multi-Line Comments (Using # on each line)**
+
+Python doesn’t have a built-in multi-line comment block like some languages, so you use `#` on each line:
+
+```python
+# This is a multi-line comment
+# You write a new # on each line
+# Python ignores each line
+```
+
+---
+
+### ✅ 4. **Docstrings (Triple Quotes for Documentation)**
+
+Although not technically a comment, **docstrings** are often used like multi-line comments inside functions, classes, or modules:
+
+```python
+def greet():
+    """
+    This function prints a greeting.
+    You can use triple quotes for docstrings.
+    """
+    print("Hello!")
+```
+
+### 🧠 Explanation:
+
+* Python uses `"""triple quotes"""` or `'''single triple quotes'''` to create **docstrings**.
+* These are used for documentation and can be accessed with `help()`.
+
+---
+
+## ✅ Summary
+
+| Type                | Syntax               | Purpose                    |
+| ------------------- | -------------------- | -------------------------- |
+| Single-line comment | `# comment`          | Brief note or explanation  |
+| Inline comment      | `code  # comment`    | Explain specific code line |
+| Multi-line comment  | `# line1`, `# line2` | Longer explanations        |
+| Docstring           | `""" text """`       | Document functions/classes |
+
+---
+
+Would you like a small Python script that uses all these comment types together for practice?

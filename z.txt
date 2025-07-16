@@ -1,0 +1,29 @@
+Trigger
+ - Remote trigger = manually triggered by them.(JENKINS_URL/job/dev/build?token=TOKEN_NAME. If we use this link in browser it will automatically triggered after we leave them. )
+ - Periodic trigger = automatically triggered by cron ***** (https://crontab.guru/)
+
+Regular Expression (regex101.com) = it means same more jobs having access to the people. (eg: software developer, cloud developer, tester, production.so if I want developer , I just give the string like "/.dev *". so, it takes software developer and cloud developer, like that you want to change whatever it may be...)
+ - Developer = .dev *
+          .  = it indicates starting with dot
+         dev = starting these words 
+          *  = it takes after the full words
+
+Where did Jenkins file installed ?  
+ /etc
+ /etc/jenkins = linux
+ /etc/default/jenkins = ubuntu
+
+
+If we change the port number in Jenkins where are the paths we change ?
+  /etc/default/jenkins = to change 
+         and 
+  /usr/lib/systemd/system/jenkins.service
+
+
+webapps = Deploy
+logs    = logs
+conf    = Users
+Bin     = Start and Stop
+
+sh startup.sh
+./startup.sh

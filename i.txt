@@ -1,0 +1,13 @@
+#!/bin/bash
+
+read -p "Enter countdown time in seconds: " total
+
+while [ $total -gt 0 ]; do
+  minutes=$((total / 60))
+  seconds=$((total % 60))
+  printf "\r⏳ Time remaining: %02d:%02d" $minutes $seconds
+  sleep 1
+  ((total--))
+done
+
+echo -e "\r🚀 Countdown finished!          "

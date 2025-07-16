@@ -1,0 +1,8 @@
+name="mani"
+echo "Hello, $name"
+
+if [ "$name" == "mani" ]; then
+  echo "hello mani"
+else
+  echo "who are you?"
+fi

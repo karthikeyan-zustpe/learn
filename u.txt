@@ -1,0 +1,39 @@
+Git & GitHub
+
+Repository = code files are stored
+
+git config --global user.name "Harresh"#username
+git config --global user.email harresh@gmail.com
+git clone https://samplerepo
+git add #what file do you add
+git commit -m "feat: added my name"#-m na message #add conventional commit message
+git push origin main
+git pull
+git status
+
+CONVENTIONAL COMMIT
+fix:  #fix the code  
+feat:    #add a new message or code
+refactor:   #ethavathu change or add panna use panuga
+docs:     #documentation of the code
+chore:    #romba important vela la pakaa na chore use panuga 
+!fix:     #breaking change that affect friends
+
+git diff #modifiy panna changes katum
+
+git add . # . means current files or folder ellathum eduthukum
+
+git branch #check which branch you inside it
+git checkout -b "frontend" # -b na branch 
+git checkout main #switch the branch
+git push origin frontend #push the command to the frontend
+git stash
+git stash pop
+
+git branch -M "friendbranch" # -M to change the current branch name
+
+git branch -a #what are the branch are inside
+
+git log #commit history
+
+markdown cheatsheet

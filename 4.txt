@@ -1,0 +1,37 @@
+─────────┬──────────┬──────────┐
+│ id │ name                         │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼──────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 21 │ BBPS-S2S-Prod                │ default     │ 1.0.0   │ fork    │ 71718    │ 2D     │ 1    │ online    │ 0%       │ 85.6mb   │ tec… │ disabled │
+│ 29 │ BBPS_Public_Demo             │ default     │ 1.0.0   │ fork    │ 2462     │ 4D     │ 0    │ online    │ 0%       │ 84.4mb   │ tec… │ disabled │
+│ 42 │ ClickToCall                  │ default     │ 1.0.0   │ fork    │ 2635     │ 4D     │ 0    │ online    │ 0%       │ 62.0mb   │ tec… │ disabled │
+│ 43 │ KBridge-03-06-25             │ default     │ 1.0.0   │ fork    │ 2643     │ 4D     │ 0    │ online    │ 0%       │ 110.8mb  │ tec… │ disabled │
+│ 30 │ KBridge_Mobile_Be            │ default     │ 1.0.0   │ fork    │ 2463     │ 4D     │ 0    │ online    │ 0%       │ 108.5mb  │ tec… │ disabled │
+│ 31 │ KBridge_Structured_Native    │ default     │ 1.0.0   │ fork    │ 2466     │ 4D     │ 0    │ online    │ 0%       │ 90.2mb   │ tec… │ disabled │
+│ 27 │ NGO-ADMIN                    │ default     │ 1.0.0   │ fork    │ 2460     │ 4D     │ 0    │ online    │ 0%       │ 86.0mb   │ tec… │ disabled │
+│ 28 │ NGO-USER                     │ default     │ 1.0.0   │ fork    │ 2461     │ 4D     │ 0    │ online    │ 0%       │ 86.5mb   │ tec… │ disabled │
+│ 40 │ Payout_Prod                  │ default     │ 1.0.0   │ fork    │ 2627     │ 4D     │ 0    │ online    │ 0%       │ 65.1mb   │ tec… │ disabled │
+│ 24 │ Prepaid-Prod-DO-NOT-Touch    │ default     │ 1.0.0   │ fork    │ 2457     │ 4D     │ 0    │ online    │ 0%       │ 79.2mb   │ tec… │ disabled │
+│ 38 │ Reacct_IDP_SP                │ default     │ 1.0.0   │ fork    │ 2621     │ 4D     │ 0    │ online    │ 0%       │ 96.1mb   │ tec… │ disabled │
+│ 37 │ React_IDP_BE                 │ default     │ 1.0.0   │ fork    │ 2615     │ 4D     │ 0    │ online    │ 0%       │ 243.3mb  │ tec… │ disabled │
+│ 23 │ SMS-PROD-DO-NOT-TOUCH        │ default     │ 1.0.0   │ fork    │ 2456     │ 4D     │ 0    │ online    │ 0%       │ 66.1mb   │ tec… │ disabled │
+│ 6  │ SSO-BE                       │ default     │ 1.0.0   │ fork    │ 8476     │ 4D     │ 4    │ online    │ 0%       │ 265.1mb  │ tec… │ disabled │
+│ 14 │ SSO-prod                     │ default     │ 1.0.0   │ fork    │ 2447     │ 4D     │ 0    │ online    │ 0%       │ 238.3mb  │ tec… │ disabled │
+│ 36 │ TEST                         │ default     │ 1.0.0   │ fork    │ 2609     │ 4D     │ 0    │ online    │ 0%       │ 78.4mb   │ tec… │ disabled │
+│ 26 │ WebRTC                       │ default     │ 1.0.0   │ fork    │ 2459     │ 4D     │ 0    │ online    │ 0%       │ 82.4mb   │ tec… │ disabled │
+│ 33 │ WhatsappS2S                  │ default     │ 1.0.0   │ fork    │ 2467     │ 4D     │ 0    │ online    │ 0%       │ 81.9mb   │ tec… │ disabled │
+│ 15 │ ZustPe-HRMS                  │ default     │ 1.0.0   │ fork    │ 2448     │ 4D     │ 0    │ online    │ 0%       │ 219.4mb  │ tec… │ disabled │
+│ 20 │ bbpsmain-prod                │ default     │ 1.0.0   │ fork    │ 2453     │ 4D     │ 0    │ online    │ 0%       │ 79.7mb   │ tec… │ disabled │
+│ 16 │ cms-kyc                      │ default     │ 1.0.0   │ fork    │ 2449     │ 4D     │ 0    │ online    │ 0%       │ 61.3mb   │ tec… │ disabled │
+│ 9  │ gatewaydirectory             │ default     │ 1.0.0   │ fork    │ 2445     │ 4D     │ 0    │ online    │ 0%       │ 92.8mb   │ tec… │ disabled │
+│ 4  │ hrms-v2                      │ default     │ 1.0.0   │ fork    │ 2440     │ 4D     │ 0    │ online    │ 0%       │ 80.0mb   │ tec… │ disabled │
+│ 5  │ payu                         │ default     │ 1.0.0   │ fork    │ 2441     │ 4D     │ 0    │ online    │ 0%       │ 60.7mb   │ tec… │ disabled │
+│ 25 │ prepaids2s-prod              │ default     │ 1.0.0   │ fork    │ 71719    │ 2D     │ 1    │ online    │ 0%       │ 87.0mb   │ tec… │ disabled │
+│ 2  │ projecthub-be                │ default     │ 1.0.0   │ fork    │ 2439     │ 4D     │ 0    │ online    │ 0%       │ 79.8mb   │ tec… │ disabled │
+│ 22 │ razorpay-dont-touch          │ default     │ 1.0.0   │ fork    │ 2455     │ 4D     │ 0    │ online    │ 0%       │ 67.3mb   │ tec… │ disabled │
+│ 8  │ sms                          │ default     │ 1.0.0   │ fork    │ 2444     │ 4D     │ 0    │ online    │ 0%       │ 65.2mb   │ tec… │ disabled │
+│ 7  │ sso-sp-be                    │ default     │ 1.0.0   │ fork    │ 8503     │ 4D     │ 3    │ online    │ 0%       │ 98.6mb   │ tec… │ disabled │
+│ 12 │ sso-sp-production            │ default     │ 1.0.0   │ fork    │ 2446     │ 4D     │ 0    │ online    │ 0%       │ 95.0mb   │ tec… │ disabled │
+│ 18 │ traiadmin-api                │ default     │ 1.0.0   │ fork    │ 2451     │ 4D     │ 0    │ online    │ 0%       │ 85.1mb   │ tec… │ disabled │
+│ 19 │ usersp-prod                  │ default     │ 1.0.0   │ fork    │ 3292     │ 4D     │ 1    │ online    │ 0%       │ 87.0mb   │ tec… │ disabled │
+│ 17 │ zustpe-cms                   │ default     │ 1.0.0   │ fork    │ 2450     │ 4D     │ 0    │ online    │ 0%       │ 218.8mb  │ tec… │ disabled │
+└────┴──────────────────────────────┴──────

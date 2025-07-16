@@ -1,0 +1,92 @@
+db.createUser(
+
+{
+
+user: "username",
+
+pwd: "password",
+
+roles: [ { role: "readWrite", db: "db_name" } ],
+
+mechanisms:[
+
+   "SCRAM-SHA-1"
+
+  ]
+
+}
+
+);
+ 
+ 
+ 
+mongodb://username:password@IP:27017/db_name?authSource=db_name&authMechanism=SCRAM-SHA-1
+ 
+mongodb://userAdmin:Z1ech5up%409!55!%40!@192.168.1.50:27017/?authSource=admin&authMechanism=SCRAM-SHA-1
+ 
+
+
+mongodb://CUSTOMER:iTaRTHerefis@192.168.1.50:27017/CUSTOMER_DB?authSource=CUSTOMER_DB&authMechanism=SCRAM-SHA-1
+
+
+
+
+
+
+
+
+
+
+Use admin 
+Show users
+
+db.createUser(
+
+{
+
+user: "test",
+
+pwd: "otRAVERsaiRO",    (* NOTE: password cannot take special characters like !@#$%^& *)
+
+roles: [ { role: "readWrite", db: "application" } ],
+
+mechanisms:[
+
+   "SCRAM-SHA-1"
+
+  ]
+
+}
+
+);
+ 
+ 
+ 
+mongodb://bbps_agent:LEhAVeARTIca@192.168.1.50:27017/agent?authSource=agent&authMechanism=SCRAM-SHA-1
+ 
+
+
+
+
+
+db.createUser(
+
+{
+
+user: "chat",
+
+pwd: "quItontRErem",
+
+roles: [ { role: "readWrite", db: "newchatvideo" } ],
+
+mechanisms:[
+
+   "SCRAM-SHA-1"
+
+  ]
+
+}
+
+);
+
+mongodb://chat:quItontRErem@192.168.1.50:27017/newchatvideo?authSource=newchatvideo&authMechanism=SCRAM-SHA-1

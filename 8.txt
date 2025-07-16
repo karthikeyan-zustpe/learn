@@ -1,0 +1,14 @@
+1. LPG Code                = http://192.168.1.50/lpg
+2. School Code             = http://192.168.1.50/school
+3. hrms                    = http://192.168.1.50/hrms
+4. projectHub              = http://192.168.1.50/projecthub
+5. ngo                     = http://192.168.1.50/ngo
+6. Payments Agent Code     
+   - agent-bbps-fe      = http://192.168.1.50/agent/bbps
+   - agent-postlogin-fe = http://192.168.1.50/agent
+   - AgentPreLogin      = http://192.168.1.50/payment/agent
+   - Agent-PrePaid-FE   = http://192.168.1.50/agent/prepaid
+
+    
+
+

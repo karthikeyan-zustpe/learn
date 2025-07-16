@@ -1,0 +1,6 @@
+| Language   | Platform                      | Typical Use                      | Syntax Simplicity    |
+| ---------- | ----------------------------- | -------------------------------- | -------------------- |
+| Python     | Cross-platform                | AI, automation, data science     | Easy                 |
+| JavaScript | Web & Node.js                 | Web interactivity, servers       | Moderate             |
+| Bash       | Linux/macOS                   | Sysadmin, DevOps scripting       | Simple, UNIX-style   |
+| PowerShell | Windows (also cross-platform) | System automation, Windows admin | Verbose but powerful |

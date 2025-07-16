@@ -1,0 +1,20 @@
+Ai public.sh
+Hrms.sh
+kaki.sh
+lpg.sh
+newproject.sh
+paymentagent.sh
+projecthub.sh
+school.sh
+superadmin.sh
+ngo.sh
+cms
+chat app
+kbridge
+
+
+directory
+payments admin
+payments user
+gateway
+biller aggregator

@@ -1,0 +1,66 @@
+Absolutely! Here's a **quick and clear guide** to **basic PowerShell comments** — perfect for beginners.
+
+---
+
+## 📝 **PowerShell Comments (Basics)**
+
+PowerShell supports:
+
+---
+
+### ✅ 1. **Single-Line Comments**
+
+Use the `#` symbol. Anything after `#` on the line is **ignored**.
+
+```powershell
+# This is a single-line comment
+Write-Output "Hello, PowerShell!"  # Inline comment after code
+```
+
+> ✔️ Use these to explain commands or make notes.
+
+---
+
+### ✅ 2. **Multi-Line (Block) Comments**
+
+Use `<#` to **start** and `#>` to **end** a block of comments.
+
+```powershell
+<#
+This is a multi-line comment.
+It can span several lines.
+Useful for script headers or explanations.
+#>
+Write-Output "This runs after the comment."
+```
+
+> ✔️ Great for documenting entire sections or scripts.
+
+---
+
+## 🛠️ Example Script with Comments
+
+```powershell
+# Define a greeting
+$name = "Alice"  # You can change this to your name
+
+<#
+The line below will print a greeting.
+We use string interpolation to include the name.
+#>
+Write-Output "Hello, $name!"
+```
+
+---
+
+## 💡 Best Practices
+
+| Do This                           | Avoid This                         |
+| --------------------------------- | ---------------------------------- |
+| `# Describe why, not what`        | `# This sets a variable`           |
+| Use comments to organize sections | Avoid over-commenting obvious code |
+| Keep them clear and up-to-date    | Avoid long outdated comments       |
+
+---
+
+Would you like a printable PDF of this or more practice examples with beginner-level PowerShell scripts?

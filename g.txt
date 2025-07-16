@@ -1,0 +1,121 @@
+| Command     |                   Purpose                          |               Example                 |
+| ----------- | -------------------------------------------------- | ------------------------------------- |
+| `-v`        | Show Nginx version                                 | `nginx -v`                            |
+| `-V`        | Show Nginx version with detailed compile info      | `nginx -V`                            |
+| `-t`        | Test the Nginx configuration syntax                | `sudo nginx -t`                       |
+| `-s`        | Send signals to Nginx process (stop, reload, etc.) | `sudo nginx -s reload`                |
+| `-c`        | Specify a custom configuration file                | `sudo nginx -c /path/to/config.conf`  |
+| `-g`        | Set global directives                              | `sudo nginx -g "worker_processes 4;"` |
+| `-h`        | Display help message                               | `nginx -h`                            |
+| `-p`        | Set the prefix path for Nginx                      | `sudo nginx -p /custom/path/`         |
+| `-T`        | Display the full configuration for debugging       | `sudo nginx -T`                       |
+| `-l`        | Display the Nginx error log location               | `nginx -l`                            |
+| `-L`        | Display log levels                                 | `nginx -L`                            |
+| `-q`        | Suppress output                                    | `nginx -q`                            |
+| `-s reload` | Reload Nginx configuration                         | `sudo nginx -                         |
+
+-c = it will say flag
+
+sudo -i = switch to root user
+pwd = present working directory
+
+windows can accept only zip file format.
+But Linux can accept zip file and tar file format.
+tar -xvzf FILE NAME = it can be unzip.
+
+ls -lrt = means it can show detaily like who can access and time format of the file or folder.
+
+ls -a = list all the hidden files and folders
+
+ls -ltrh = list all of them in horizontally
+      -l = long listing format
+      -t = sort by modification time,newest first
+      -r = reverse reverse order while sorting
+      -h = human readable with -I 
+
+ls -altrh = above with hidden files
+      
+pwd = present working directory
+
+rm -rf = 
+   -   = flag
+    r  = recrussive
+    f  = force
+
+touch  = create file
+
+vi = command mode and insert mode .If we type something it will goes to insert mode. If we close these first type ctrl+C and then type :wq (w=write,q=quit). For only quit :q!
+
+cp = copy
+
+mv = move
+
+mv temp.txt ../ = (../ = one back)
+
+. = if the file name is start with . it is the hidden file
+
+head = top 10 commands in the file
+
+tail = bottom 10 commands in the file
+
+head -3 = top 3 lines
+
+tail -3 = bottom 3 lines
+
+tail -f = it also shows the last 10 lines but last updated one if anyone last modified also shown
+
+ctrl + C = 
+
+ps = list the process
+  
+clear = clean only the terminal 
+
+kill -9 "server no"=
+   -9  = force kill
+
+top = what are the process is running on the server
+
+df = list of the diskspace
+
+ssh = to connect the another server (eg : ssh ipaddress@hostname)
+
+wget = web to get
+
+curl =
+
+find ./ -name file.txt =  give the path of the file.txt
+    ./  = where we search
+
+uname = current system name (eg: Linux, ubuntu)
+
+uname -a = full information of the system
+
+date = current date of the system 
+
+echo = it echo the command 
+
+wc file.txt = it shows the like 11  27 110 file.txt where 11 is lines ,27 is words , 110 is the bits taken by the file
+   wc = word count
+      
+grep "Folder" file.txt =
+
+grep -i "Folder" file.txt              
+          -i = case sensitive
+          
+grep -ir "Folder" ./ =
+           
+history =
+
+sudo = super user do
+
+exit =
+
+file hi.txt = it gives the output hi.txt: ASCII text, which what type of the file stored in
+
+shutdown = 
+
+
+
+
+
+

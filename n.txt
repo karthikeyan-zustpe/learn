@@ -1,0 +1,17 @@
+DevOps
+  - Docker
+  - kubernates
+  - Mongodb
+  - Jenkins 
+  - Postman
+  - Git & Github
+  - Terraform
+
+AWS
+  - EC2
+  - S3
+  - IAM
+  - VPC
+  - Code Build
+  - Code Deploy
+  - 

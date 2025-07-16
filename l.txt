@@ -1,0 +1,52 @@
+Cloud Watch
+	- collect, analyze, and respond to metrics, logs, and events 
+
+Cloud Trail
+	- It records all API calls and actions made within your AWS environment 
+        - AWS CloudTrail is a service that records all actions taken in your AWS account. 
+        - It helps you track, monitor, and audit everything that happens — like who did what, when, and from where.
+
+
+| Feature              | **CloudWatch**                                 | **CloudTrail**                               |
+| -------------------  | ---------------------------------------------- | -------------------------------------------- |
+| 📘 Purpose          | **Monitors performance and health**            | **Records user activity and API calls**      |
+| 📊 Tracks           | Metrics (CPU, memory), logs, alarms            | "Who did what, when, and where"              |
+| 🧠 Focus            | **Resource monitoring & application insights** | **Security auditing & compliance tracking**  |
+| 🛠️ Data Source      | AWS services & custom metrics/logs             | AWS API calls via Console, CLI, SDK          |
+| 🚨 Real-Time Alerts | Yes (alarms on metrics and logs)               | Indirectly, when used with CloudWatch alarms |
+| 🧾 Log Type         | Application logs, system logs, metrics         | Management event logs (e.g., user actions)   |
+| 💡 Example          | Alert when CPU > 80% on EC2                    | Log that “user X terminated EC2 instance”    |
+
+
+Cloud Front
+	-  Content Delivery Network (CDN) service provided by AWS that speeds up the delivery of your content (like websites, APIs, videos, and other web assets) to users across the globe.
+
+Amazon S3 = Cloud object storage (like a virtual flash drive for files, photos, videos). [BUCKET = folder, OBJECT = file] 
+
+Amazon EBS = Cloud block storage (like a hard drive for EC2).
+
+Amazon EFS = Cloud file storage (like a network-shared folder).
+
+| Feature       | S3                         | EBS             | EFS                     |
+| ------------- | -------------------------- | --------------- | ----------------------- |
+| Type          | Object Storage             | Block Storage   | File Storage            |
+| Access        | Over HTTP/HTTPS (REST API) | Attached to EC2 | Mountable on EC2        |
+| Shared Access | Yes (global)               | No              | Yes (multi-instance)    |
+| Use Case      | Backups, static websites   | Databases, OS   | Shared apps, containers |
+
+
+IAM = Identity and Access Management (controls who can do what)
+
+| Feature                  | **AWS Lambda**                                                  | **AWS Fargate**                                            |
+| ------------------------ | --------------------------------------------------------------- |----------------------------------------------------------- |
+| **Execution Model**      | Event-driven functions                                          | Container-based workloads                                  |
+| **Deployment Unit**      | Code functions (ZIP, container)                                 | Docker containers                                          |
+| **Use Case**             | Short-lived, event-based tasks                                  | Long-running apps, microservices                           |
+| **Startup Time**         | Very fast (ms–sec)                                              | Slower (few seconds)                                       |
+| **Max Execution Time**   | 15 minutes                                                      | No hard limit (can run indefinitely)                       |
+| **State**                | Stateless only                                                  | Can maintain state (within container)                      |
+| **Concurrency**          | Auto-scales per request                                         | Scales per task/service                                    |
+| **Resource Allocation**  | Memory (128 MB–10 GB), CPU proportional                         | You define CPU and memory (more flexible)                  |
+| **Triggers**             | Native support for AWS events (S3, API Gateway, DynamoDB, etc.) | Requires manual setup (e.g., via EventBridge)              |
+| **Cost Model**           | Pay per request + execution time                                | Pay per vCPU and memory per second                         |
+| **Use in Microservices** | Ideal for lightweight tasks and APIs                            | Ideal for full-featured services with complex dependencies |
