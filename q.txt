@@ -1,1 +1,0 @@
-echo "sushanth@zustpi.in:{PLAIN}password123:1001:1001::/var/mail/vhosts/example.com/user/Maildir::userdb_mail" >> /etc/dovecot/users
