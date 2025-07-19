@@ -1,3 +1,0 @@
-cps 5010
-ledger 8004 /api/agent/ledger
-AgentSp 5000 /api/agent/login
