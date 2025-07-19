@@ -1,3 +1,0 @@
-/api/pg/payu    6005
-/api/kyc        3002
-/api            5000
