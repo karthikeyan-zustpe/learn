@@ -1,8 +1,0 @@
-#!/bin/bash
-
-read -p "Enter directory path: " dir
-echo "Calculating size of $dir ..."
-sleep 1
-
-du -sh "$dir"
-echo "✅ Done!"
