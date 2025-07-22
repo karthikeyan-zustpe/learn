@@ -1,8 +1,0 @@
-| Comment Type            | Symbol(s)                  | Use Case                          |
-| ----------------------- | -------------------------- | --------------------------------- |
-| Single-line             | `#`                        | Brief explanations or notes       |
-| Inline                  | `#`                        | Describe specific line of code    |
-| Multi-line (block)      | `<# #>`                    | Explain logic, block out sections |
-| Script/Function HelpDoc | `<# #>` + `.SYNOPSIS` etc. | Help system integration           |
-| Disabled code           | `#`                        | Temporarily prevent execution     |
-| Section headers         | `#` lines                  | Organize script visually          |
