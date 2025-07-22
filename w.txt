@@ -1,9 +1,0 @@
-| Hardware Thing        | AWS Virtual Version     |
-| --------------------- | ----------------------- |
-| Physical Server       | Amazon EC2              |
-| Hard Drive / SSD      | Amazon S3 / EBS / EFS   |
-| Router / Network Gear | Amazon VPC              |
-| Database Server       | Amazon RDS / DynamoDB   |
-| Firewall / Security   | AWS WAF / IAM / Shield  |
-| Monitoring Tools      | CloudWatch / CloudTrail |
-| Data Center           | AWS Regions & Zones     |
