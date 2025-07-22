@@ -1,9 +1,0 @@
-Few shot  = one prompt with all details with example
-one shot  = one prompt with all details
-
-Task
-Context
-Exemplar
-Persona
-Format
-Tone
